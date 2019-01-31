@@ -1,0 +1,26 @@
+{
+  "name": "angularjs-migration",
+  "version": "1.0.0",
+  "description": "Proof of concept for migrating an AngularJS app to React",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build index.html",
+    "lint": "prettier --check app/**/*.js",
+    "lint:fix": "prettier --write app/**/*.js",
+    "start": "parcel -p 5001 watch index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mathias Schilling",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.7.6",
+    "prop-types": "^15.6.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react2angular": "^4.0.4"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.11.0",
+    "prettier": "1.16.3"
+  }
+}

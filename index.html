@@ -1,0 +1,18 @@
+<html lang="en" ng-app="app">
+  <head>
+    <meta charset="utf-8">
+    <title>Proof of concept for migrating an AngularJS app to React</title>
+    <base href="/">
+  </head>
+  <body ng-controller="AppCtrl as app">
+    <div ng-controller="HomeController as homeCtrl">
+      <h1>{{ homeCtrl.title }}</h1>
+      <chuck-norris></cat-image>
+    </div>
+    <!-- Add dependencies -->
+    <script src="app/app.js"></script>
+    <script src="app/components/index.js"></script>
+    <script src="app/controllers/home.controller.js"></script>
+    <script src="node_modules/angular/angular.js"></script>
+  </body>
+</html>
